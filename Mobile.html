@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEX - Calculadora de Derivadas</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="Img/DEX-ICON.png" type="image/png">
+    <!-- Twitter Card -->
+    <meta name="twitter:title" content="DEX - Calculadora de Derivadas">
+    <meta name="twitter:description" content="Bienvenido a DEX, tu herramienta para calcular derivadas con entrada LaTeX.">
+    <meta name="twitter:image" content="Img/DEX-ICON.png">
+    <!-- Content -->
+    <meta property="og:title" content="DEX - Calculadora de Derivadas">
+    <meta property="og:image" content="Img/DEX-ICON.png">
+    <meta property="og:url" content="github.com/qzxtu">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DEX">
+    <!-- Embed Banner -->
+    <meta name="embed-banner:url" content="Img/DEX-ICON.png">
+    <meta name="embed-banner:width" content="1200">
+    <meta name="embed-banner:height" content="600">
+    <!-- For IE -->
+    <link rel="shortcut icon" href="Img/DEX-ICON.png" type="image/x-icon">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal flex flex-col min-h-screen">
+    <!-- Encabezado -->
+    <nav class="bg-gradient-to-r from-purple-500 to-indigo-600 p-6 shadow-md fixed w-full z-10 top-0">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="Img/DEX-ICON.png" alt="DEX Logo" class="h-10 w-10 mr-3">
+                <h1 class="text-3xl text-white font-bold">DEX</h1>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="flex-grow container mx-auto pt-24 flex">
+        <!-- Formulario de cálculo -->
+        <div class="w-full max-w-3xl p-8 bg-white rounded-lg shadow-md mx-auto relative z-10">
+            <div class="mb-6">
+                <label for="expression" class="block text-gray-700 text-xl font-semibold">Expresión (LaTeX):</label>
+                <textarea id="expression" class="mt-2 block w-full p-3 border rounded-lg h-24 resize-none shadow-inner" placeholder="Ej: x^2 + 3*x + 5"></textarea>
+            </div>
+            <div class="mb-6">
+                <label for="variable" class="block text-gray-700 text-xl font-semibold">Variable:</label>
+                <input type="text" id="variable" class="mt-2 block w-full p-3 border rounded-lg shadow-inner" placeholder="Ej: x">
+            </div>
+            <button id="calculate" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300">Calcular Derivada</button>
+            <div id="result" class="mt-6 text-gray-700 text-lg"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/latex.js/dist/latex.js"></script>
+    <script src="Js/script.js"></script>
+</body>
+</html>
