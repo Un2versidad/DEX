@@ -1,0 +1,119 @@
+/* Estilo para el botón de historial */
+#toggleHistory {
+    z-index: 20; /* Asegura que el botón esté por encima del contenido */
+}
+
+/* Estilo para el panel de historial */
+#historyPanel {
+    position: fixed;
+    right: 0;
+    top: 96px; /* Ajustar la altura según la barra de navegación */
+    bottom: 0; /* Fijar al fondo de la página */
+    width: 25%; /* Ajusta el ancho del panel */
+    overflow-y: auto; /* Solo permitir desplazamiento vertical */
+    background: white; /* Fondo blanco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para el panel */
+    border-left: 1px solid #ddd; /* Borde izquierdo */
+    padding: 1rem; /* Espaciado interno */
+    z-index: 20; /* Asegura que el panel esté por encima del contenido */
+}
+
+/* Ajuste para asegurar que no haya desbordamiento horizontal */
+#history {
+    max-height: calc(100vh - 128px); /* Limitar la altura para evitar desbordamiento vertical excesivo */
+}
+
+/* Estilo para cada item en el historial */
+#history li {
+    background-color: #f9f9f9; /* Color de fondo ligero para los items */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado entre items */
+    font-size: 0.9rem; /* Tamaño de fuente */
+    overflow-x: auto; /* Permitir desplazamiento horizontal */
+    white-space: nowrap; /* No permitir que el texto se ajuste en varias líneas */
+    transition: background-color 0.3s; /* Añadir una transición para el color de fondo */
+}
+
+#history li:hover {
+    background-color: #e2e2e2; /* Cambiar el color de fondo al pasar el ratón */
+}
+
+/* Estilo para los encabezados dentro de cada item del historial */
+#history li strong {
+    display: block; /* Mostrar como bloque para alineación */
+    margin-bottom: 4px; /* Espaciado inferior */
+}
+
+/* Asegurar que el pie de página esté siempre en la parte inferior */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto; /* Ajusta la altura del pie de página */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Estilo general de la página */
+body {
+    background: linear-gradient(to right, #edf2f7, #e2e8f0); /* Fondo degradado */
+}
+
+/* Sombra interna para los inputs */
+.shadow-inner {
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* Sombra para los elementos principales */
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes de color para que coincidan con el logo */
+.bg-purple-500 {
+    background-color: #805AD5;
+}
+
+.bg-purple-600 {
+    background-color: #6B46C1;
+}
+
+.bg-purple-700 {
+    background-color: #553C9A;
+}
+
+.bg-purple-800 {
+    background-color: #44337A;
+}
+
+.bg-purple-900 {
+    background-color: #322659;
+}
+
+.text-purple-500 {
+    color: #805AD5;
+}
+
+.text-purple-600 {
+    color: #6B46C1;
+}
+
+.text-purple-700 {
+    color: #553C9A;
+}
+
+.text-purple-800 {
+    color: #44337A;
+}
+
+.text-purple-900 {
+    color: #322659;
+}
+
+/* Asegurarse de que el logo sea responsivo */
+img {
+    max-width: 100%;
+    height: auto;
+}
