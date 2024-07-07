@@ -1,3 +1,5 @@
+![image](https://github.com/qzxtu/DEX/assets/69091361/4535d09b-af17-4781-9e26-215c6c33e267)
+
 # DEX - Calculadora de Derivadas
 
 Bienvenido a DEX, una calculadora de derivadas diseñada como un proyecto universitario. Este proyecto tiene como objetivo proporcionar una herramienta simple y efectiva para calcular derivadas utilizando expresiones matemáticas.
@@ -29,6 +31,10 @@ Para utilizar DEX, sigue los siguientes pasos:
     ```
 
 2. **Abre el archivo `index.html` en tu navegador favorito.**
+
+## Screenshot
+
+![image](https://github.com/qzxtu/DEX/assets/69091361/528dabf8-b808-4c4c-a849-b17eb3a8f13d)
 
 ## Tecnologías Utilizadas
 
