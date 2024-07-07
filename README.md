@@ -1,4 +1,4 @@
-![image](https://github.com/qzxtu/DEX/assets/69091361/4535d09b-af17-4781-9e26-215c6c33e267)
+![image](https://github.com/qzxtu/DEX/assets/69091361/0c7a8c86-c36c-4dd7-a8bd-758c34d8841c)
 
 # DEX - Calculadora de Derivadas
 
