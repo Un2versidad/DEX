@@ -4,7 +4,7 @@
              x:Class="DEX.MainPage">
     <WebView
         x:Name="MyWebView"
-        Source="https://qzxtu.github.io/DEX/Mobile.html"
+        Source="https://un2versidad.github.io/DEX/Mobile.html"
         VerticalOptions="FillAndExpand"
         HorizontalOptions="FillAndExpand"/>
 
